@@ -1,0 +1,45 @@
+==================================================
+    Name    : Tarik Ozturk
+    ID      : 155237209
+    Email   : tozturk1@myseneca.ca
+    Section : NCC
+==================================================
+
+1.
+a) int isCharInString(char* string, char c, int max);
+b) None developed
+c) int loadAccounts(struct Account *account, int accSize);
+   int loadTickets(struct Ticket *ticket, int ticketSize);
+   int saveAccounts(struct Account *account, int accSize);
+   int saveTickets(struct Ticket *ticket, int ticketSize);
+   void listNewTickets(struct Ticket *tickets, int max);
+   void listActiveTickets(struct Ticket *tickets, int max);
+   void listClosedTickets(struct Ticket *tickets, int max);
+   void addNewTicket(struct Account *accounts, struct Ticket *tickets, int maxAcc, int maxTicket);
+   void manageTicket(struct Ticket *tickets, const struct Account *loggedInAcc, int max);
+d) void displayStatusHeader(void);
+
+2. One of the two components I enjoyed creating was about listing new, active, and closed tickets. 
+Although I did not have to write lines of codes to achieve it, these components are quite functional 
+because the functions I created before were helpful. Therefore, It was fun to create a functional 
+thing without dealing with complex problems. I also learned how to break a big function into small 
+functions. Breaking a big function into smaller ones enables me to organize my code. Thus the design 
+of my code became better. Before those components, my code was hard to read and if I make any mistakes, 
+it was hard to fix them. The other component I enjoyed creating was updating person, account, and login 
+information. Before I worked on this component, I was having problems with how to use pointers. When I 
+was creating this component, I had a chance to reinforce my knowledge about the pointers because this 
+component force me to use pointers frequently. Although I had some trouble at the beginning of this 
+component, I started to have fun after learning more about how to use pointers correctly. Now, I am 
+feeling that I have concrete knowledge about pointers. Therefore it was fun to work on this.
+
+3. One of the two components I do not like creating was when we remove an account. In the beginning, I 
+thought it would be easy to do. However, when I started working on this component, I had trouble with 
+removing account tickets. I could not figure out how to remove tickets, and therefore I tried different 
+ways. Although I eventually created it correctly, I had to spend a lot of time on it. Thus, it was not 
+fun to work on this part of the project. Another component that I did not like working on was creating 
+the getCString function. Although this function was helpful in every part of the project, I had to spend 
+so much time getting it done correctly. Since we were not allowed to use string libraries, initially, I 
+had trouble with finding the length of the string. It was also hard for me to find the correct place for 
+the clearStandardInputBuffer function. Additionally, the minimum and the maximum length requirements made 
+it even harder. Even though I learned many things when I was creating this, I spent a lot of time, and when 
+I was stuck at certain places, I felt overwhelmed. Thus it was not so likable to work on it.
